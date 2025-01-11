@@ -23,7 +23,7 @@ function isFibonacci(num) {
     return false;
 }
 
-const numero = 21;
+const numero = 45;
 if (isFibonacci(numero)) {
     console.log(`${numero} pertence à sequência de Fibonacci.`);
 } else {
@@ -99,5 +99,5 @@ function reverseString(str) {
     return reversed;
 }
 
-const inputString = "Exemplo";
+const inputString = "O dia brilha cada vez mais";
 console.log("String invertida:", reverseString(inputString));
